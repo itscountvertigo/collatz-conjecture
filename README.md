@@ -13,8 +13,8 @@ The Collatz conjecture function does not require matplotlib.
 
 You can change the collatz() return statement to get the largest number in the sequence instead, like this:
 
-```
+```diff
 if num == 1:
-        ~~return steps_taken~~
-        return highest_value
+-       return steps_taken
++       return highest_value
 ```
